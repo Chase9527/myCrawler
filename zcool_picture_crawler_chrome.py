@@ -92,7 +92,7 @@ pagenum=1
 while True:
     #下拉，以获取该页面的所有图文栏目
     for j in range(15):
-        action.scroll_by_amount(0, 1500)  # 将页面向下滚动20000像素
+        action.scroll_by_amount(0, 1500)  # 将页面向下滚动1500像素
         action.perform()  # 执行
         time.sleep(0.1)
     elems = driver.find_elements(By.XPATH, '// *[ @ id = "__next"] / main / section / section[2] / section / div / section / div[1] / span[1] / a')
@@ -135,7 +135,7 @@ while i < len(urls):
 # while True:
 #     # 下拉，以获取该页面的所有图文栏目
 #     for j in range(15):
-#         action.scroll_by_amount(0, 1500)  # 将页面向下滚动20000像素
+#         action.scroll_by_amount(0, 1500)  # 将页面向下滚动1500像素
 #         action.perform()  # 执行
 #         time.sleep(0.1)
 #     elems = driver.find_elements(By.XPATH,
