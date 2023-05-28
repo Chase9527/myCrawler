@@ -2,7 +2,7 @@
 # beta version
 # Copyright (C) 2023-  Chi Xianzheng.
 # email: 2489798267@qq.com  or 13789955221@139.com
-#
+# github：https://github.com/Chase9527/myCrawler.git
 # This software is provided 'as-is', without any express or implied warranty.
 # In no event will the author be held liable for any damages arising from the use of this software.
 #
